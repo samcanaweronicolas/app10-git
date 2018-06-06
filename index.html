@@ -1,0 +1,574 @@
+﻿<!doctype html>
+<html>
+<head>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<meta charset="utf-8">
+<title>Aplicacion 10 Proyecto Final de DAM</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/thema11.min.css">
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript -->
+<script src="js/jquery-1.11.2.min.js"> </script>
+<script src="js/jquery.mobile-1.4.5.min.js"> </script>
+<script src="js/acciones.js" type="text/javascript"></script>
+<script src="phonegap.js"></script> <!--necesario*/ -->
+
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+</head>
+
+<body onLoad="MM_preloadImages('../app10Andres/imagenes/normalizacin-de-base-de-datos-5-728.jpg','../app10Andres/imagenes/images (3).jpg','imagenes/images (4).jpg','imagenes/introduccion-poo.jpg','imagenes/objetoexpl.png','imagenes/img1.png','imagenes/img3.png')">
+
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" >
+<h1>Programación Orientada a Objetos</h1>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1 align="center">Programacion orientada a objetos</h1>
+<div>
+  <div align="center">
+    <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image61','','imagenes/img1.png',1)"><img src="imagenes/img2.png" width="1200" height="600" id="Image61"></a><br>
+    </p>
+  </div>
+</div>
+<div></div>
+</div>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme-b>
+<h1 align="center">Info del Desarrollador:</h1>
+<div>
+  <div align="center">
+    <h2 align="left">Nombre: Nicolas Barrera Canales</h2>
+    <h2 align="left">Semestre: 4° </h2>
+    <h2 align="left">Grupo: &quot;E&quot;</h2>
+    <h2 align="left">Profesor: Lic. José Antonio Gómez Hernández</h2>
+    <h2 align="left">Submodulo: Desarrolla Aplicaciones Moviles</h2>
+    <h2 align="left">Especialidad: Programacion</h2>
+    <p><br>
+  </p>
+  </div>
+</div>
+<div></div>
+</div>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme-b>
+<h1 align="center">Ejemplos de Programacion</h1>
+<div>
+  <div align="center">
+    <h2 align="center">
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image61','','imagenes/img3.png',1)"><img src="imagenes/img4.png" width="260" height="194" id="Image"></a> <br>
+  </h2>
+  </div>
+</div>
+<div></div>
+</div>
+</div>
+<div>
+<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>¿Qué es la programacion?</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Para que se utilizan?</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Ventajas de la Programacion orientada a objetos</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Desventajas de la Programacion orientada a objetos</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Objetos</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Tipos de Programacion orientada a objetos</h2>
+</a>
+</li>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme-b>
+<h1 align="center">WowSlider</h1>
+<div>
+  <div align="center">
+    <p>&nbsp;</p>
+
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/maxresdefault.jpg" alt="" title="" id="wows2_0"/></li>
+		<li><img src="data2/images/nbhnvgf.jpg" alt="" title="" id="wows2_1"/></li>
+		<li><img src="data2/images/objetoexpl.png" alt="" title="" id="wows2_2"/></li>
+		<li><img src="data2/images/objetosfeos.jpg" alt="" title="" id="wows2_3"/></li>
+		<li><img src="data2/images/poo.jpg" alt="" title="" id="wows2_4"/></li>
+		<li><img src="data2/images/pooone.jpg" alt="" title="" id="wows2_5"/></li>
+		<li><img src="data2/images/pooooooooooo.jpg" alt="" title="" id="wows2_6"/></li>
+		<li><img src="data2/images/poouno.jpg" alt="" title="" id="wows2_7"/></li>
+		<li><a href="http://wowslider.com"><img src="data2/images/qwertyuiop.jpg" alt="http://wowslider.com/" title="" id="wows2_8"/></a></li>
+		<li><img src="data2/images/qwsderfvbn.png" alt="" title="" id="wows2_9"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title=""><span><img src="data2/tooltips/maxresdefault.jpg" alt=""/>1</span></a>
+		<a href="#" title=""><span><img src="data2/tooltips/nbhnvgf.jpg" alt=""/>2</span></a>
+		<a href="#" title=""><span><img src="data2/tooltips/objetoexpl.png" alt=""/>3</span></a>
+		<a href="#" title=""><span><img src="data2/tooltips/objetosfeos.jpg" alt=""/>4</span></a>
+		<a href="#" title=""><span><img src="data2/tooltips/poo.jpg" alt=""/>5</span></a>
+		<a href="#" title=""><span><img src="data2/tooltips/pooone.jpg" alt=""/>6</span></a>
+		<a href="#" title=""><span><img src="data2/tooltips/pooooooooooo.jpg" alt=""/>7</span></a>
+		<a href="#" title=""><span><img src="data2/tooltips/poouno.jpg" alt=""/>8</span></a>
+		<a href="#" title=""><span><img src="data2/tooltips/qwertyuiop.jpg" alt=""/>9</span></a>
+		<a href="#" title=""><span><img src="data2/tooltips/qwsderfvbn.png" alt=""/>10</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">image slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+    <p><br>
+    </p>
+  </div>
+</div>
+<div></div>
+</div>
+</div>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Lenguajes Orientados a objetos</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2><strong>Como se piensa en objetos</strong></h2>
+</a>
+</li>
+
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Relaciones</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina10" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Propiedaades</h2>
+</a>
+</li>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme-b>
+<h1 align="center">Programacion Orientada </h1>
+<h1 align="center">a Objetos</h1>
+<div>
+  <div align="center">
+    <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','imagenes/introduccion-poo.jpg',1)"><img src="imagenes/hqdefault.jpg" width="90%" height="75%" id="Image14"></a><br>
+    </p>
+  </div>
+</div>
+<div></div>
+</div>
+</div>
+</ul>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+<h4>App 10</h4>
+<h4>Nicolas Barrera Canales</h4>
+</div>
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" dat-back-btn-text="Regresar" data-theme="b">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+		<h1>¿Qué es?</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<p>La programación Orientada a objetos es una forma especial de  programar, más cercana a como expresaríamos las cosas en la vida real que otros  tipos de programación.<br>
+  Con la programación Orientada a objetos tenemos que aprender a pensar las cosas de una manera  distinta, para escribir nuestros programas en términos de objetos, propiedades,  métodos y otras cosas que veremos rápidamente para aclarar conceptos y dar una  pequeña base que permita soltarnos un poco con este tipo de programación.</p>
+<p><img src="imagenes/conceptos.jpg" width="90%" height="70%"><br>
+  <strong></strong><br>
+  Durante años, los programadores se han dedicado a construir aplicaciones  muy parecidas que resolvían una y otra vez los mismos problemas. Para conseguir  que los esfuerzos de los programadores puedan ser utilizados por otras personas  se creó la Programacion orientada a objetos. Que es una serie de normas de realizar las cosas de manera que  otras personas puedan utilizarlas y adelantar su trabajo, de manera que  consigamos que el código se pueda reutilizar.<br>
+  La Programacion orientada a objetos no es difícil, pero es una manera especial de pensar, a veces  subjetiva de quien la programa, de manera que la forma de hacer las cosas puede  ser diferente según el programador. Aunque podamos hacer los programas de  formas distintas, no todas ellas son correctas, lo difícil no es programar  orientado a objetos sino programar bien. Programar bien es importante porque  así nos podemos aprovechar de todas las ventajas de la Programacion orientada a objetos.</p>
+<div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+    <li class="ui-first-child ui-last-child">
+      <h2><a href="https://msdn.microsoft.com/es-es/library/bb972232.aspx" target="_self" data-role="button" id="2Enlace2">Leer mas</a></h2>
+      </li>
+  </ul>
+</div>
+<div style="width:40%;"> </div>
+
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+<h4>App 10 NBC</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+<div data-role="header"  data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Para que se utilizan?</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+  <p>Uso de la Programación Orientada a Objetos y el  C++ Luego de la presentación anterior de las generalidades referidas a la  Programación Orientados a Objetos es importante destacar que los  contenidos referidos a estos temas y dictados en este curso están fuertemente  limitados por motivos de tiempo y de formación previa de los estudiantes. Esto  es así por cuanto la POO son nuevas formas de pensar un sistema de software, y  su asimilación exige un tiempo y una dedicación que no está disponible en esta  etapa de la carrera. Sin embargo, en asignaturas futuras les surgirá la  necesidad de utilizar bibliotecas de componentes Orientados a Objetos en  Lenguaje C++ para construir sistemas de software con necesidades específicas, e  integrarlos a los conocimientos y construcciones ya aprendidas de Programación  Estructurada en Lenguaje C. Por este motivo, en este curso se dará la formación  básica necesaria para aplicar, enlazar y construir sistemas de software que  utilicen entidades Orientadas a Objetos que proporcionan las habilidades  requeridas por la aplicación bajo desarrollo. En este contexto, nos limitaremos  a conocer los mecanismos de instanciación de objetos de clases ya existentes y  nos centraremos en la integración de estos componentes por medio del mecanismo  de &ldquo;intercambio de mensajes&rdquo; (invocación de métodos), de manera muy similar al  uso de bibliotecas de funciones que ya conocemos. Pero debe quedar claro que en  este curso no aprenderemos a analizar, ni a diseñar ni a construir objetos de  software orientado a objetos, dejando pendiente este proceso hasta lograr  establecer un entendimiento profundo de los mecanismos estructurados  fundamentales. </p>
+  <br>
+      <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/cfhcnbvj.png" alt="" title="" id="wows1_0"/></li>
+		<li><img src="data1/images/conceptospooprogravisual.jpg" alt="" title="" id="wows1_1"/></li>
+		<li><img src="data1/images/cvbnmjh.png" alt="" title="" id="wows1_2"/></li>
+		<li><img src="data1/images/fcghjgfkhm.jpg" alt="" title="" id="wows1_3"/></li>
+		<li><img src="data1/images/fundamentosdeprogramacinorientadaaobjetos.jpg" alt="" title="" id="wows1_4"/></li>
+		<li><img src="data1/images/hjfghdtrdgb.png" alt="" title="" id="wows1_5"/></li>
+		<li><img src="data1/images/hqdefault.jpg" alt="" title="" id="wows1_6"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/images.jpg" alt="http://wowslider.com/" title="" id="wows1_7"/></a></li>
+		<li><img src="data1/images/introduccionpoo.jpg" alt="" title="" id="wows1_8"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title=""><span><img src="data1/tooltips/cfhcnbvj.png" alt=""/>1</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/conceptospooprogravisual.jpg" alt=""/>2</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/cvbnmjh.png" alt=""/>3</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/fcghjgfkhm.jpg" alt=""/>4</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/fundamentosdeprogramacinorientadaaobjetos.jpg" alt=""/>5</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/hjfghdtrdgb.png" alt=""/>6</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/hqdefault.jpg" alt=""/>7</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/images.jpg" alt=""/>8</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/introduccionpoo.jpg" alt=""/>9</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">image slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+<div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class="ui-first-child ui-last-child">
+<a href="http://dea.unsj.edu.ar/informatica2/recursos/Apuntes/Resumen-POO-v2.pdf"target="_self" data-role="button" id="2Enlace">
+<h2>Leer mas</h2>
+</a></li>
+  </ul>
+</div>
+
+</div>
+</div> 
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+<h4>App 10 NBC</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+<div data-role="header"  data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Ventajas de la POO</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+  <h3><strong>La idea  básica de la programación Orientada a objetos</strong></h3>
+  <p>En POO, los programas de ordenador tienen interacción de  &quot;objetos&quot;. Un objeto tiene &quot;variables de instancia&quot; y  &quot;métodos&quot;. Las variables de instancia registran valores asociados con  el objeto. Los métodos son funciones que involucran algún aspecto del objeto.  En un programa de juego, puede haber un objeto llamado &quot;nave  espacial&quot;, que tiene variables de instancia como la cantidad de  combustible. Un método podría ser &quot;torpedo contra incendios&quot;. Las  naves espaciales podrían pertenecer a una &quot;clase&quot; de objetos llamados  &quot;objetos en movimiento.&quot; Los asteroides también pertenecen a esta  clase. La ejecución del programa se compone de los objetos que envían  &quot;mensajes&quot; entre sí.</p>
+  <div>
+    <h3><strong>Las  ventajas de a programación Orientada a objetos</strong></h3>
+  </div>
+  <p>La primera ventaja del concepto de objetos es que todo el código  que tiene algo que ver con las naves espaciales se encuentra en un solo lugar.  Otra ventaja es que los objetos pueden poseer atributos inherentes de la clase  a la que pertenecen, por ejemplo, naves espaciales y asteroides podrían tener  ambos una posición XY porque todos los objetos que pertenecen a la clase de los  objetos en movimiento tiene una posición XY. Escribir códigos es más fácil  porque se pueden conceptualizar como algo que le sucede a un objeto. Otra  ventaja es que POO hace que los programas grandes sean más manejables. Si todas  las ventanas pertenecen a una jerarquía de clases de ventanas y todo el código  que se refiere a una ventana particular está dentro de esa ventana, todas las  manipulaciones de ventana se pueden escribir como una sencilla transferencia de  mensajes.</p>
+<p><br>
+  </p>
+  <p>&nbsp;</p>
+  <div style="width:40%;">    </div>
+</div>
+</div> 
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+<h4>App 10 NBC</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Desventajas de la la programación Orientada a objetos</h1>
+</div>
+
+<div data-role="content" align="center">
+<div>
+  <h3><strong>Las  desventajas de la programación Orientada a objetos</strong></h3>
+  <p>No todos los programas pueden ser modelados con exactitud por el  modelo de objetos. Si lo que deseas es leer algunos datos, hacerles algo simple  y escribir de nuevo, no tienes necesidad de definir clases y objetos. Sin  embargo, en algunos lenguajes de POO, puede que tengas que realizar este paso  extra. Otra desventaja es que si se fuerza el lenguaje en el concepto de  programación orientada a objetos, se pierden algunas de las características de  lenguajes útiles, como los &quot;lenguajes funcionales&quot;. Otra desventaja  el que concepto que un programador tiene de lo que constituye un objeto abstracto  puede no coincidir con la visión de otro programador. Los objetos a menudo  requieren una extensa documentación.</p>
+  <div>
+    <h3><strong>El futuro  de la programación Orientada a objetos</strong></h3>
+  </div>
+  <p>El futuro de la programación orientada a objetos probablemente se  encuentra con lenguajes como Ruby y Lua, en el que se construye el concepto de  objeto en el lenguaje y no siempre es explícitamente controlado por el  programador. Ruby, por ejemplo, trata todo como un objeto, incluidas cadenas,  números, tu programa y los contenidos del directorio en el que estás  actualmente. Casi nunca tendrás que declarar algo como un objeto. Eres libre de  utilizar el lenguaje como quieras: como programación orientada a objetos, como  un lenguaje funcional, como lenguaje de procedimiento o incluso en formas que  mezclan las modalidades.</p>
+  <div style="width:40%;">
+    <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+      <li class="ui-first-child ui-last-child">
+        <h2><a href="https://techlandia.com/ventajas-desventajas-programacion-orientada-objetos-info_184901/ " target="_self" data-role="button" id="1Enlace2">Más</a>        </h2>
+      </li>
+    </ul>
+  </div>
+</div>
+</div>
+
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+<h4>App 10 NBC</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1><strong>Objetos</strong></h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h4><!-- Start WOWSlider.com BODY section -->
+  <script type="text/javascript" src="engine1/wowslider.js"></script>
+  <script type="text/javascript" src="engine1/script.js"></script>
+
+  <!-- End WOWSlider.com BODY section --><!-- Start WOWSlider.com BODY section -->
+  <script type="text/javascript" src="engine3/wowslider.js"></script>
+  <script type="text/javascript" src="engine3/script.js"></script>
+
+  <!-- End WOWSlider.com BODY section --></h4>
+<p>Los  objetos representan una entidad concreta o abstracta del mundo real, en  programación básicamente se le conoce como la instancia de una clase en si es  lo que da el sentido a estas.<br>
+  <br>
+  Al igual que las clases se componen de tres partes fundamentales:<br>
+  <br>
+  <strong>Estado</strong>: Representa los atributos o características con valores concretos  del objeto.<strong>Comportamiento&nbsp;</strong>: Se define por los métodos u operaciones  que se pueden realizar con el.&nbsp;<strong>Identidad&nbsp;</strong>: Es la propiedad  única que representa al objeto y lo diferencia del resto.</p>
+<p>&nbsp;</p>
+<img src="imagenes/conceptospooprogravisual.jpg" width="90%" height="70%">
+<p><img border="0" width="32" height="32" src="index_clip_image001.png" alt="http://2.bp.blogspot.com/-PVwO4jJ1-eg/UZjxQojILuI/AAAAAAAABGg/gyZrtjwqOzY/s1600/objeto.jpg">en la imagen, los moldes representan las clases,  mientras que las galletas obtenidas de estos moldes representan los objetos  instancias de estas clases, por ejemplo atributos del objeto galleta podría ser  sabor, color, tamaño etc......<br>
+  <br>
+  En java se representa creando una instancia de la clase por medio de la  palabra&nbsp;<strong>new&nbsp;&nbsp;</strong>al hacer eso creamos el objeto de la clase y  podemos hacer uso de los métodos o atributos de esta (dependiendo de la  visibilidad de los mismos ) por medio de un punto (<strong>.</strong>) así:</p>
+<p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image18','','imagenes/objetoexpl.png',1)"><img src="imagenes/hjfghdtrdgb.png" width="90%" height="45%" id="Image18"></a></p>
+<table border="0" cellspacing="0" cellpadding="0" width="751">
+  <tr>
+    <td><br>
+      1<br>
+      2<br>
+      3<br>
+      4 </td>
+    <td width="714"><p>/**Creamos el objeto como    instancia de la clase Principal*/ <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;Principal    miObjeto= new Principal(); <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;miObjeto.atributo=&quot;Este    es el nuevo valor del atributo para el objeto&quot;; <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;miObjeto.metodo(); </p></td>
+  </tr>
+</table>
+<div style="width:40%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+  <li class="ui-first-child ui-last-child">
+  <a href="https://es.wikipedia.org/wiki/Objeto_(programaci%C3%B3n)"target="_self" data-role="button" id="1Enlace">
+  <h2>Más</h2>
+  </a></li>
+</ul>
+</div>
+<div style="width:40%;">  </div>
+</div>
+</div> 
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+<h4>App 10 NBC</h4>
+</div>
+</div>
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>Tipos de la programación Orientada a objetos</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+  <p>Para realizar programación orientada a objetos existen dos corrientes  principales:</p>
+  <ul>
+    <li><strong>Basarse en clases</strong>.- Es la más  ampliamente usada por los lenguajes de programación orientada a objetos POO.  Por ejemplo es usada por Java, C++ y C#. Se basa en crear una estructura molde  llamada clase donde se especifican los campos y métodos que tendrán nuestros  objetos. Cada vez que necesitamos un objeto creamos una instancia (o copia del  objeto) usando la clase como molde.</li>
+    <li>Basarse en los prototipos.- Es  soportado en Javascript, Python y Ruby. No hay clases, solo hay objetos. El  mecanismo para la reutilización está dado por la&nbsp;<strong>clonación de objetos</strong>.  Se crean directamentos objetos y cuando se quiere generar otro con la misma  estructura se usa clonación. Una vez clonado si queremos podemos agregar los  campos y métodos necesarios. Un&nbsp;<strong>objeto prototípico</strong>&nbsp;es un  objeto que se utiliza como una plantilla a partir de la cual se obtiene el  conjunto inicial de propiedades de un objeto. Cualquier objeto puede ser  utilizado como el prototipo de otro objeto, permitiendo al segundo objeto  compartir las propiedades del primer</li>
+    <li><img src="imagenes/fcghjgfkhm.jpg" width="90%" height="90%">.</li>
+  </ul>
+  <div style="width:40%;">    </div>
+</div>
+</div> 
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+<h4>App 10 NBC</h4>
+</div>
+</div>
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>Lenguajes orientados a objetos</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+  <p><strong>Simula</strong>&nbsp;(1967) es aceptado como el primer lenguaje que posee las  características principales de un lenguaje orientado a objetos. Fue creado para  hacer programas de simulación, en donde los &quot;objetos&quot; son la  representación de la información más importante.<br>
+    <strong>Smalltalk</strong>&nbsp;(1972 a 1980) es posiblemente el  ejemplo canónico, y con el que gran parte de la teoría de la programación  orientada a objetos se ha desarrollado.<br>
+Entre los lenguajes orientados a objetos se destacan los  siguientes:</p>
+  <ul>
+    <li><a href="https://es.wikipedia.org/wiki/ActionScript" title="ActionScript">ActionScript</a></li>
+    <li><a href="https://es.wikipedia.org/wiki/ActionScript_3" title="ActionScript 3">ActionScript  3</a></li>
+    <li><a href="https://es.wikipedia.org/wiki/C_Sharp" title="C Sharp">C Sharp</a>&nbsp;(C#)</li>
+    <li><a href="https://es.wikipedia.org/wiki/Clarion_(lenguaje_de_programaci%C3%B3n)" title="Clarion (lenguaje de programación)">Clarion</a></li>
+    <li><a href="https://es.wikipedia.org/wiki/Clipper_(lenguaje_de_programaci%C3%B3n)" title="Clipper (lenguaje de programación)">Clipper</a><a href="https://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_objetos#cite_note-6">6</a>​</li>
+    <li><a href="https://es.wikipedia.org/wiki/Gambas" title="Gambas">Gambas</a></li>
+    <li><a href="https://es.wikipedia.org/wiki/GObject" title="GObject">GObject</a></li>
+    <li><a href="https://es.wikipedia.org/wiki/Genie_(lenguaje_de_programaci%C3%B3n)" title="Genie (lenguaje de programación)">Genie</a></li>
+    <li><a href="https://es.wikipedia.org/wiki/Compilador_Harbour" title="Compilador Harbour">Harbour</a></li>
+    <li><a href="https://es.wikipedia.org/wiki/Lenguaje_de_programaci%C3%B3n_Eiffel" title="Lenguaje de programación Eiffel">Eiffel</a></li>
+    <li><a href="https://es.wikipedia.org/wiki/Fortran" title="Fortran">Fortran</a>&nbsp;</li>
+    <li><a href="https://es.wikipedia.org/wiki/Lenguaje_de_programaci%C3%B3n_Java" title="Lenguaje de programación Java">Java</a></li>
+    <li><a href="https://es.wikipedia.org/wiki/JavaScript" title="JavaScript">JavaScript</a><a href="https://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_objetos#cite_note-7">7</a>​</li>
+    <li><a href="https://es.wikipedia.org/wiki/PHP" title="PHP">PHP</a><a href="https://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_objetos#cite_note-11">11</a>​</li>
+    <li><a href="https://es.wikipedia.org/w/index.php?title=PowerScript&action=edit&redlink=1" title="PowerScript (aún no redactado)">PowerScript</a></li>
+    <li><a href="https://es.wikipedia.org/wiki/Python" title="Python">Python</a></li>
+    <li><a href="https://es.wikipedia.org/wiki/Ruby" title="Ruby">Ruby</a></li>
+    <li><a href="https://es.wikipedia.org/wiki/Self_(lenguaje_de_programaci%C3%B3n)" title="Self (lenguaje de programación)">Self</a></li>
+    <li><a href="https://es.wikipedia.org/wiki/Visual_Basic" title="Visual Basic">Visual  Basic</a>&nbsp;</li>
+  </ul>
+  <p>Muchos de estos lenguajes de programación no son puramente  orientados a objetos, sino que son híbridos que combinan la programación Orientada a objetos con otros  paradigmas.<br>
+    Al igual que C++, otros lenguajes, como OOCOBOL, OOLisp,  OOProlog y object REXX, han  sido creados añadiendo extensiones orientadas a objetos a un lenguaje de  programación clásico.<br>
+    Un nuevo paso en la abstracción de paradigmas de programación es  la Programacion Orientada a Aspectos&nbsp;(POA).  Aunque es todavía una metodología en estado de maduración, cada vez atrae a más  investigadores e incluso proyectos comerciales en todo el mundo.</p>
+  <p>&nbsp;</p>
+  <img src="imagenes/maxresdefault.jpg" width="90%" height="45%">
+<div style="width:40%;">  </div>
+</div>
+</div> 
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+<h4>App 10 NBC</h4>
+</div>
+</div>
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <h1><strong>Como se piensa en objetos</strong></h1>
+</div>
+<div data-role="content" align="center">
+<div>
+  <p>Pensar en términos de objetos es muy parecido a cómo lo haríamos en la  vida real. Por ejemplo vamos a pensar en un coche para tratar de modelizarlo en  un esquema de la programación Orientada a objetos. Diríamos que el coche es el elemento principal que tiene una  serie de características, como podrían ser el color, el modelo o la marca.  Además tiene una serie de funcionalidades asociadas, como pueden ser ponerse en  marcha, parar o aparcar.<br>
+Pues en un esquema POO el coche sería el objeto, las propiedades serían  las características como el color o el modelo y los métodos serían las  funcionalidades asociadas como ponerse en marcha o parar.<br>
+Por poner otro ejemplo vamos a ver cómo modelizaríamos en un esquema la programación Orientada a objetos  una fracción, es decir, esa estructura matemática que tiene un numerador y un  denominador que divide al numerador, por ejemplo 3/2.<br>
+La fracción será el objeto y tendrá dos propiedades, el numerador y el  denominador. Luego podría tener varios métodos como simplificarse, sumarse con  otra fracción o número, restarse con otra fracción, etc.<br>
+Estos objetos se podrán utilizar en los programas, por ejemplo en un  programa de matemáticas harás uso de objetos fracción y en un programa que  gestione un taller de coches utilizarás objetos coche. Los programas Orientados  a objetos utilizan muchos objetos para realizar las acciones que se desean  realizar y ellos mismos también son objetos. Es decir, el taller de coches será  un objeto que utilizará objetos coche, herramienta, mecánico, recambios, etc.<br>
+Pensar en términos de objetos es muy parecido a cómo lo haríamos  en la vida real. Por ejemplo vamos a pensar en un coche para tratar de  modelizarlo en un esquema de la programación Orientada a objetos. Diríamos que el coche es el elemento  principal que tiene una serie de características, como podrían ser el color, el  modelo o la marca. Además tiene una serie de funcionalidades asociadas, como  pueden ser ponerse en marcha, parar o aparcar. </p>
+  <p><img src="imagenes/objetosfeos.jpg" width="90%" height="70%"><br>
+    Pues en un esquema POO el coche sería el objeto, las propiedades  serían las características como el color o el modelo y los métodos serían las  funcionalidades asociadas como ponerse en marcha o parar.(2) <br>
+    La programación orientada a objetos, intenta simular el mundo  real a traves del significado de objetos que contiene caracteristicas y  funciones. Los lenguajes orientados a objetos se clasifican como lenguajes de  quinta generacion. </p>
+  <p> Como su mismo nombre  indica, la programación orientada a objetos se basa en la idea de un objeto,  que es una combinacion de variables locales y procedimientos llamados metodos  que juntos conforman una entidad de programación. </p>
+  <div style="width:40%;">    </div>
+</div>
+</div> 
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+<h4>App 10 NBC</h4>
+</div>
+</div>
+<div data-role="page" id="Pagina9" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1 align="center">Relaciones</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+  <p>Las relaciones entre objetos son,  precisamente, los enlaces que permiten a un objeto relacionarse con aquellos  que forman parte de la misma organización.<br>
+    Las hay de dos tipos fundamentales:<br>
+  <em>-Relaciones jerárquicas.</em>&nbsp;Son  esenciales para la existencia misma de la aplicación porque la construyen. Son  bidireccionales, es decir, un objeto es padre de otro cuando el primer objeto  se encuentra situado inmediatamente encima del segundo en la organización en la  que ambos forman parte; asimismo, si un objeto es padre de otro, el segundo es  hijo del primero (en la fig. 2, B es padre de D,E y F, es decir, D,E y F son  hijos de B; en la fig. 3, los objetos B y C son padres de F, que a su vez es  hijo de ambos).<br>
+    Una organización jerárquica simple  puede definirse como aquella en la que un objeto puede tener un solo padre,  mientras que en una organizacion jerárquica compleja un hijo puede tener varios  padres).<br>
+  <em>-Relaciones semánticas.</em>&nbsp;Se  refieren a las relaciones que no tienen nada que ver con la organización de la  que forman parte los objetos que las establecen. Sus propiedades y consecuencia  solo dependen de los objetos en sí mismos (de su significado) y no de su  posición en la organización.<br>
+    Se puede ver mejor con un ejemplo:  supongamos que vamos a construir un diccionario informatizado que permita al  usuario obtener la definición de una palabra cualquiera. Supongamos que, en  dicho diccionario, las palabras son objetos y que la organización jerárquica es  la que proviene de forma natural de la estructura de nuestros conocimientos  sobre el mundo.<br>
+    La raíz del diccionario podría  llamarse TEMAS. De éste término genérico descenderán tres grandes ramas de  objetos llamadas VIDA, MUNDO y HOMBRE El primero (vida) comprenderá  las ciencias &nbsp;biológicas: Biologia&nbsp;y Medicina.El segundo (mundo), las ciencias  de la Naturaleza&nbsp;inerte: las Matematicas, la Fisica, la Quimica&nbsp;y la Geología. El tercero (hombre) comprenderá  las ciencias humanas: la Geografía, la Historia, etc.</p>
+  <p><img src="imagenes/TopicNotesImage.gif" width="90%" height="40%"><br>
+    Veamos un ejemplo: estableceremos  la relación&nbsp;<em>trabajo</em>&nbsp;entre los objetos&nbsp; NEWTON&nbsp;y OPTICA y la interpretaremos  diciendo que significa que Newton&nbsp;<em>trabajó</em>&nbsp;en óptica &nbsp;(véase la fig. 4). La  relación es, evidentemente, Semántica, pués no establece ninguna  connotación jerárquica entre NEWTON y OPTICA y su interpretación&nbsp;depende exclusivamente  del&nbsp;<strong>significado</strong>&nbsp;de ambos objetos.<br>
+    La existencia de esta relación nos  permitirá responder a preguntas como:<br>
+    ¿Quién&nbsp;<em>trabajó</em>&nbsp;en  óptica?<br>
+    ¿En qué&nbsp;<em>trabajó</em>&nbsp;Newton?<br>
+    ¿Quien&nbsp;<em>trabajó</em>&nbsp;en  Física?<br>
+    Las dos primeras se deducen  inmediatamente de la existencia de la relación&nbsp;<em>trabajo</em>. Para la  tercera observamos que si Newton trabajó en óptica automáticamente sabemos que  trabajó en Física, por ser óptica una rama de la Física (en nuestro  diccionario, el objeto OPTICA es hijo del objeto FISICA). Entonces gracias a la  OOP podemos responder a la tercera pregunta sin necesidad de establecer una  relación entre NEWTON y FISICA, apoyandonos sólo en la relación definida entre  NEWTON y OPTICA y en que OPTICA es hijo de FISICA. De este modo se elimina toda  redundancia innecesaria y la cantidad de información que tendremos que definir  para todo el diccionario será mínima.</p>
+<p>&nbsp;</p>
+</div>
+</div> 
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+<h4>App 10 NBC</h4>
+</div>
+</div>
+<div data-role="page" id="Pagina10" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Propiedades</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+  <p>Todo objeto puede tener cierto  número de propiedades, cada una de las cuales tendrá, a su vez, uno o varios  valores. En OOP, las propiedades corresponden a las clásicas &quot;Variables&quot; de la programación  estructurada. Son, por lo tanto, datos encapsulados dentro del objeto, junto  con los métodos (programas) y las relaciones (punteros a otros objetos). Las  propiedades de un objeto pueden tener un valor &nbsp;único o pueden contener un  conjunto de valores mas o menos estructurados (matrices,&nbsp; vectores, listas, etc.). Además,&nbsp; los valores pueden ser de cualquier tipo  (numérico, alfabético, etc.) si el&nbsp;sistema&nbsp;de programación lo permite.<br>
+    Pero existe una diferencia con las  &quot;variables&quot;, y es que las propiedades se pueden heredar de unos  objetos a otros. En consecuencia, un objeto puede tener una propiedad de  maneras diferentes:<br>
+  <em>-Propiedades propias.</em>&nbsp;Están  formadas&nbsp;<strong>dentro</strong>&nbsp;de la cápsula del objeto.<br>
+  <em>-Propiedades heredadas.</em>&nbsp;Estan  definidas en un objeto diferente, antepasado de éste (padre,&quot;abuelo&quot;,  etc.). A veces estas propiedades se llaman&nbsp;<strong>propiedades miembro</strong>&nbsp;porque  el objeto las posee por el mero hecho de ser miembro de una clase.<img src="imagenes/qwertyuiop.jpg" width="90%" height="50%"><br>
+</p>
+  <h2>&nbsp;</h2>
+</div>
+</div> 
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+<h4> App 10 NBC</h4>
+</div>
+</div>
+</body>
+</html>
